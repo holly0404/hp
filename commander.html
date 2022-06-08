@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>Commande/Reservation</title>
+<style type="text/css">
+#root{
+width:100%;
+background-image:url(images/resto.jpg);
+background-position:center center;
+background-size:cover;
+margin-left:auto;
+margin-right:auto;
+}
+#header{
+height:400px;
+background-image:url(images/header.jpg);
+background-position:center center;
+background-size:cover;
+background-attachment:fixed;
+background-size:100%;
+font-family:"times new roman"
+}
+#header a{
+margin-left:15px;
+}
+#bar{
+				vertical-align:middle;
+}
+#bar a{
+				text-decoration:none;
+				margin-left:20px;
+				color:black;
+				radius:25px;
+				font-size:25px;
+				box-shadow:2px 2px 2px;
+				border-radius:10px;
+}
+#bar a:hover{
+				background-color:black;
+				color:white;
+				border-radius:10px;
+				padding-left:30px;				
+}
+#center{
+min-height:1000px;
+background-image:url(images/resto.jpg);
+background-position:center center;
+background-size:cover;
+}
+label{
+				font-size: 20;
+}
+#montext{
+				height: 100px;
+				width: 50%;
+}
+#montext2{
+				height: 100px;
+				width: 50%;
+}
+button{
+border:0px;
+font-weight: bold;
+box-shadow:2px 2px 2px;
+}
+#devise{
+				background-color:#eaeaff;				
+				color:black;
+				border-radius:5px;
+}
+#devise a{
+				background-color:#eaeaff;
+				color:black;
+}
+#footer{
+background-color:black;
+height:160px;
+border-radius:5px;
+}
+#footer a{
+				text-decoration:none;
+				margin-left:5px;
+				color:white;				
+}
+#footer a:hover{
+				border-radius:5px;
+				background-color:white;
+				color:black;
+				padding-left:15px;
+}
+</style>
+</head>
+<body>
+<div id="root">	
+<div id="header">
+<h1 align="center">HP Restaurant</br>
+Commande & Reservation</h1>
+<p align="center"><img src="images/logohp.png" 
+weight="100" height="100" alt="logosite"></p>
+<div align="center"></br>
+<a href="https://wa.me/+50936160322">
+<img src="images/Whatsapp.png" height="60" 
+width="60" alt="logo whatsapp"></a>
+<a href="https://www.facebook.com/holly.pamies">
+<img src="images/Facebook.png" height="60" 
+width="60" alt="logo facebook"></a>
+<a href="https://www.instagram.com/hollypami">
+<img src="images/insta.png" height="60" 
+width="60" alt="logo instagram"></a>
+<a href="mailto:hollypamies04@gmail.com">
+<img src="images/gmail.png" height="60" 
+width="60" alt="logo gmail"></a>
+</div></br></br>
+<div id="bar" align="center">
+<a href="acceuil.html">Acceuil</a>
+<a href="Menu.html">Menu</a>
+<a href="inscription.html">S'inscrire</a>
+<a href="connexion.html">Se connecter</a>
+</div>
+</div>
+<div id="center" align="center">
+</br>				
+<h2>Que prenez vous</h2>
+</br>
+<!-- reception de données nécesaires 
+pour comander ou reserver-->
+<label for="montext">Commandez ou
+reservez ici</label></br>
+<textarea name="montext" id="montext">
+</textarea>
+</br>
+<br align="center"><button type="submit">
+Envoyer</button>
+<!-- NB -->
+<p style="color:red;font-style:italic;
+font-weight:bold;"><u>Commande</u> : 
+Ecrivez le ou les plats que vous voulez 
+commander/Mettre la quantite apres chaque 
+plat/Mettre le point de livraison voulu.</br>
+<u>Reservation</u> : Date de livraison/Plat(s)/
+Quantite/Point de livraison.</p>
+<!-- points de livraison sans tableau -->
+<h2>Nos points de livraison</h2>
+<h3>Champs de Mars</h3>
+<img src="images/slide1.jpg" height="100" 
+width="100"/>
+<h3>Petion-ville/place St.Pierre</h3>
+<img src="images/slide2.jpg" height="100" 
+width="100"/>
+<h3>Delmas 41/Cari restaurant</h3>
+<img src="images/slide3.jpg" height="100" 
+width="100"/>
+<h3>Turgeau/Piment Rouge</h3>
+<img src="images/slide4.jpg" height="100" 
+width="100"/>
+</br></br></br>
+<!-- Commentaire -->
+<label for="montext">Laissez nous un 
+commentaire</label></br>
+<textarea name="montext" id="montext2">
+</textarea></br>
+<br align="center"><button type="submit">
+Envoyer</button>
+</div>
+
+<div id="footer" align="center">
+<div id="devise" align="center">
+<h4>HP Restaurant / Nourriture locale, d'une qualite internationale</h4>
+</div>
+<a href="acceuil.html">A propos</a>
+<a href="inscription.html">S'inscrire</a>
+<a href="connexion.html">Se connecter</a>
+</br>
+<a>Contactez-nous</a>
+</br>
+<a href="https://wa.me/+50936160322">
+<img src="images/Whatsapp2.png" height="50" 
+width="50" alt="logo whatsapp"></a>
+<a href="https://www.facebook.com/holly.pamies">
+<img src="images/Facebook2.png" height="50" 
+width="50" alt="logo facebook"></a>
+<a href="https://www.instagram.com/hollypami">
+<img src="images/insta2.png" height="50" 
+width="50" alt="logo instagram"></a>
+<a href="mailto:hollypamies04@gmail.com">
+<img src="images/gmail2.png" height="50" 
+width="50" alt="logo gmail"></a>
+<a href="tel:+50939334570"><img 
+src="images/phone.png" height="50" width="50" 
+alt="logo phone"></a>
+</div>
+</div>
+</body>
+</html>
