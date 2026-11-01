@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Canevas</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+#root{
+width:80%;
+margin-left:auto;
+margin-right:auto;
+border:1px solid gray;
+}
+#header{
+height:182px;
+background-color:blue;
+background-image:url(qrcode.png);
+background-repeat:no-repeat;
+}
+#header h1{
+color:white;
+margin-left:183px;
+}
+#center{
+background-color:yellow;
+min-height:300px;
+}
+#footer{
+background-color:green;
+height:200px;
+}
+#menu_bar{
+height:50px;
+border:1px solid blue;
+margin-top:5px;
+line-height:50px;
+vertical-align:middle;
+}
+#menu_bar a{
+text-decoration:none;
+margin-left:10px;
+padding:10px;
+color:black;
+background-color:white;
+}
+#menu_bar a:hover{
+background-color:black;
+color:white;
+border:1px solid blue;
+border-radius:30px;
+}
+#image_promo{
+height:100px;
+background-image:url(couleur.jpg);
+background-position:center center;
+background-size:contain;
+}
+</style>
+</head>
+<body>
+<div id="root">
+<div id="header">
+<h1>Les animaux de l'antartique</h1>
+</div>
+<div id="menu_bar" align="center">
+<a href="#">PRODUITS</a>
+<a href="#">CLIENT</a>
+<a href="#">LIVRAISON</a>
+</div>
+<div id="center">
+<div id="image_promo"></div>
+<p>Les animaux de l'antartique sont en danger il faut un effort collectif pour les sauver</p>
+</div>
+
+<div id="footer">
+</div>
+</div>
+</body>
+</html>
